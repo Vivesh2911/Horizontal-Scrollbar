@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  align-items: center;
+  margin: 2%;
+  border: 0px solid rgb(184, 251, 160);
+  padding: 3%;
+  border-radius: 10px;
+  box-shadow: 0.5px 0.5px 40px 10px rgb(182, 246, 182);
+}
+
+.scrollWrapper {
+  overflow-x: auto;
+  flex: 1;
+  padding: 5%;
+  border: 0.2px solirgb(223, 56, 56)ck;
+  box-shadow: 0.5px 0.5px 20px 10px rgb(239, 43, 8);
+
+  margin: 2%;
+  border-radius: 10px;
+}
+.btn{
+  font-size: larger;
+  border-radius: 10px;
+  padding: 1%;
+  background-color: aquamarine;
+  cursor: pointer;
+
+}
+
+.array {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.list {
+  padding: 10px;
+  margin-right: 10px;
+  background-color: lightgray;
+  border-radius: 50%;
+  border: 1px solid black;
+  padding: 4%;
+  margin: 2%;
+
+}
